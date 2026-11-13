@@ -1,0 +1,4 @@
+Model,Task,Metric_1,Metric_2,Metric_3,Key_Predictors
+Win Probability (LightGBM),Binary Classification,ROC-AUC: 0.9267,Brier Score: 0.1111,Log-Loss: 0.3418,"rrr, rpw, balls_rem, runs_required"
+Expected Runs xR (LightGBM),Gradient Boosted Regression,RMSE: 1.7112,MAE: 1.2923,Mean Bias: 0.000000,"overid, is_death, cum_wickets, is_ipl"
+Wicket Hazard xW (LightGBM),Probability Calibration,ROC-AUC: 0.6120,Brier Score: 0.0524,Log-Loss: 0.2114,"cum_wickets, overid, is_death, balls_rem"
